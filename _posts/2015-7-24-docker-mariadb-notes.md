@@ -22,6 +22,7 @@ ADD mysql-utf8.cnf /etc/mysql/conf.d/mysql-utf8.cnf
 ```
 
 mysql-utf8.cnf 파일은 다음과 같다.
+
 ```
 [client]
 # Default is Latin1, if you need UTF-8 set this (also in server section)
@@ -42,11 +43,13 @@ init-connect='SET NAMES utf8'
 ```
 
 이제 docker build
+
 ```
 $ docker build --tag cedsd-db .
 ```
 
 build한 cedsd-db 이미지를 db1이라는 이름으로 실행
+
 ```
 $ docker run --name db1 -d -p 3306:3306 cedsd-db
 ```
@@ -54,6 +57,7 @@ $ docker run --name db1 -d -p 3306:3306 cedsd-db
 * -p : 포트를 외부에 오픈
 
 외부에서 container내부의 명령어를 실행. bash를 실행하면 내부로 진입하게 됨.
+
 ```
 $ docker exec -it db1 /bin/bash
 $ export TERM=xterm-256color; mysql -u root -p # mysql 클라이언트 실행
