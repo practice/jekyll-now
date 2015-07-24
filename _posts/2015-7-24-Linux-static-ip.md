@@ -7,7 +7,7 @@ title: 리눅스 고정 IP 세팅
 
 /ect/network/interfaces 파일 수정
 
-```shell
+```
 iface eth0 inet static
 address 172.16.114.133
 netmask 255.255.255.0
