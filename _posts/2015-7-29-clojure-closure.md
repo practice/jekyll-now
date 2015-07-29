@@ -46,4 +46,7 @@ Closure 정의는 이러한데...
 
 그런데 위 예제에서는 무엇이 Closure인가?
 first-and-last-name-comparison이다. 이 함수는 만들어질 때, 두개의 비교함수가 외부에서 주어졌다.
-이것이 context이다. 결국 function + context 가 되었다.
+이것이 context이다 (혹은 free variables이라고도). 결국 function + context 가 되었다.
+
+Closure는 class와 유사한 점이 있다. class는 내부에 상태가 있고 메소드들이 있다.
+Closure도 이렇게 내부 상태(context)를 가질 수 있다. 하지만 Closure는 함수가 하나이다.
