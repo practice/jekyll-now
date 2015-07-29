@@ -12,6 +12,7 @@ Closure 정의는 이러한데...
 우선 코드 샘플.
 
 비교함수 여러개를 합친 함수를 리턴하는 함수. (함수를 ..하는 함수를 ..하는 함수 ㅠㅠ)
+
 ```
 (defn make-composed-comparison [& comparisons]
   (fn [p1 p2]
