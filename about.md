@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+요즘은 Clojure 공부하고 있습니다. 공부할게 많네요. 하지만 나이 먹고 체력도 안되어 힘들기만...
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+twitter: @shawn_won
