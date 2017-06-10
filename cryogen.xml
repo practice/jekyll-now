@@ -19,23 +19,6 @@ clj-rss
 </generator>
 <item>
 <guid>
-http://practice.github.io/posts/2017-06-10-first-post/
-</guid>
-<link>
-http://practice.github.io/posts/2017-06-10-first-post/
-</link>
-<title>
-클로저 기반 사이트 생성기로 만들어 본 블로그
-</title>
-<description>
-&lt;h3 id=&quot;뭐하자는...&quot;&gt;뭐하자는...&lt;/h3&gt;&lt;p&gt;Hello world&lt;/p&gt;
-</description>
-<pubDate>
-Sat, 10 Jun 2017 00:00:00 +0900
-</pubDate>
-</item>
-<item>
-<guid>
 http://practice.github.io/posts/2016-01-07-docs/
 </guid>
 <link>
@@ -110,23 +93,6 @@ Quick Start Guide
 </description>
 <pubDate>
 Thu, 07 Jan 2016 00:00:00 +0900
-</pubDate>
-</item>
-<item>
-<guid>
-http://practice.github.io/posts/2014-11-04-second-post/
-</guid>
-<link>
-http://practice.github.io/posts/2014-11-04-second-post/
-</link>
-<title>
-Yet Another Post
-</title>
-<description>
-&lt;h3 id=&quot;this&amp;#95;post&amp;#95;so&amp;#95;fetch&quot;&gt;This Post So Fetch&lt;/h3&gt;&lt;p&gt;some more stuff happened&lt;/p&gt;
-</description>
-<pubDate>
-Tue, 04 Nov 2014 00:00:00 +0900
 </pubDate>
 </item>
 </channel>
