@@ -12,7 +12,7 @@ http://practice.github.io/
 Doing software
 </description>
 <lastBuildDate>
-Sat, 10 Jun 2017 18:17:19 +0900
+Sat, 10 Jun 2017 18:41:13 +0900
 </lastBuildDate>
 <generator>
 clj-rss
@@ -28,7 +28,7 @@ http://practice.github.io/posts/2017-06-10-first-post/
 클로저 기반 사이트 생성기로 만들어 본 블로그
 </title>
 <description>
-&lt;h3 id=&quot;뭐하자는...&quot;&gt;뭐하자는...&lt;/h3&gt;&lt;p&gt;Hello world&lt;/p&gt;
+&lt;h3 id=&quot;쓸&amp;#95;것도&amp;#95;없으면서&amp;#95;!&quot;&gt;쓸 것도 없으면서 !&lt;/h3&gt;
 </description>
 <pubDate>
 Sat, 10 Jun 2017 00:00:00 +0900
