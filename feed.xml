@@ -12,7 +12,7 @@ http://practice.github.io/
 Doing software
 </description>
 <lastBuildDate>
-Sat, 10 Jun 2017 18:41:13 +0900
+Sat, 10 Jun 2017 18:45:24 +0900
 </lastBuildDate>
 <generator>
 clj-rss
@@ -110,23 +110,6 @@ Quick Start Guide
 </description>
 <pubDate>
 Thu, 07 Jan 2016 00:00:00 +0900
-</pubDate>
-</item>
-<item>
-<guid>
-http://practice.github.io/posts/2014-11-04-second-post/
-</guid>
-<link>
-http://practice.github.io/posts/2014-11-04-second-post/
-</link>
-<title>
-Yet Another Post
-</title>
-<description>
-&lt;h3 id=&quot;this&amp;#95;post&amp;#95;so&amp;#95;fetch&quot;&gt;This Post So Fetch&lt;/h3&gt;&lt;p&gt;some more stuff happened&lt;/p&gt;
-</description>
-<pubDate>
-Tue, 04 Nov 2014 00:00:00 +0900
 </pubDate>
 </item>
 </channel>
