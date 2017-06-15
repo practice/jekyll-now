@@ -69,24 +69,25 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <div class="col-lg-6">2017년 6월 10일 (토)</div>
+        <div class="col-lg-6">2017년 6월 15일 (목)</div>
         
     </div>
-    <h2>클로저 기반 사이트 생성기로 만들어 본 블로그</h2>
+    <h2>Twitter automatic scroll</h2>
 </div>
 <div>
     
-    <h3 id="쓸&#95;것도&#95;없으면서&#95;!">쓸 것도 없으면서 !</h3><pre><code class="clojure">&#40;defn hello 
-&quot;Sample clojure snippet&quot;
-&#91;s&#93; 
-&#40;str &quot;Hello &quot; s&#41;&#41;
-</code></pre>
+    <h3 id="twitter&#95;자동으로&#95;스크롤하기">Twitter 자동으로 스크롤하기</h3><p>아래 내용을 console에 붙여 넣자.</p><pre><code class="javascript">setInterval&#40;function&#40;&#41; { 
+  if &#40;$&#40;'.new-tweets-bar'&#41;.length &gt; 0&#41; {
+    $&#40;'.new-tweets-bar'&#41;&#91;0&#93;.click&#40;&#41;;
+  }
+}, 1000&#41;;
+</code></pre><p>이런거 chrome extension으로 만들어 놓으면 좋겠네.</p>
 </div>
 
 <div id="post-tags">
     <b>Tags: </b>
     
-    <a href="/tags/clojure/">clojure</a>
+    <a href="/tags/twitter/">twitter</a>
     
     <a href="/tags/blog/">blog</a>
     
@@ -95,14 +96,14 @@
 
     
     <div id="comments">
-        <a href="/posts/2017-06-10-first-post/#disqus_thread">View Comments</a>
+        <a href="/posts/2017-06-15-twitter-automatic-scroll/#disqus_thread">View Comments</a>
     </div>
     
 
     <div id="prev-next">
         
         
-        <a class="right" href="/posts/2016-01-07-docs/">Quick Start Guide &raquo;</a>
+        <a class="right" href="/posts/2017-06-10-first-post/">클로저 기반 사이트 생성기로 만들어 본 블로그 &raquo;</a>
         
     </div>
 </div>
@@ -125,6 +126,8 @@
                     <h3>Recent Posts</h3>
                     <ul>
                         
+                        <li><a href="/posts/2017-06-15-twitter-automatic-scroll/">Twitter automatic scroll</a></li>
+                        
                         <li><a href="/posts/2017-06-10-first-post/">클로저 기반 사이트 생성기로 만들어 본 블로그</a></li>
                         
                         <li><a href="/posts/2016-01-07-docs/">Quick Start Guide</a></li>
@@ -137,9 +140,11 @@
                     <h3>Tags</h3>
                     <ul>
                         
-                        <li><a href="/tags/clojure/">clojure</a></li>
+                        <li><a href="/tags/twitter/">twitter</a></li>
                         
                         <li><a href="/tags/blog/">blog</a></li>
+                        
+                        <li><a href="/tags/clojure/">clojure</a></li>
                         
                         <li><a href="/tags/cryogen/">cryogen</a></li>
                         

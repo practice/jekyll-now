@@ -12,11 +12,33 @@ http://practice.github.io/
 Doing software
 </description>
 <lastBuildDate>
-Sat, 10 Jun 2017 19:05:29 +0900
+Thu, 15 Jun 2017 17:57:54 +0900
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://practice.github.io/posts/2017-06-15-twitter-automatic-scroll/
+</guid>
+<link>
+http://practice.github.io/posts/2017-06-15-twitter-automatic-scroll/
+</link>
+<title>
+Twitter automatic scroll
+</title>
+<description>
+&lt;h3 id=&quot;twitter&amp;#95;자동으로&amp;#95;스크롤하기&quot;&gt;Twitter 자동으로 스크롤하기&lt;/h3&gt;&lt;p&gt;아래 내용을 console에 붙여 넣자.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;setInterval&amp;#40;function&amp;#40;&amp;#41; { 
+  if &amp;#40;$&amp;#40;'.new-tweets-bar'&amp;#41;.length &amp;gt; 0&amp;#41; {
+    $&amp;#40;'.new-tweets-bar'&amp;#41;&amp;#91;0&amp;#93;.click&amp;#40;&amp;#41;;
+  }
+}, 1000&amp;#41;;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이런거 chrome extension으로 만들어 놓으면 좋겠네.&lt;/p&gt;
+</description>
+<pubDate>
+Thu, 15 Jun 2017 00:00:00 +0900
+</pubDate>
+</item>
 <item>
 <guid>
 http://practice.github.io/posts/2017-06-10-first-post/
